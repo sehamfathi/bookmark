@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookMarker</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="py-3">
+      <div class="container my-4">
+        <h3>Bookmarker</h3>
+      </div>
+    </header>
+    <div class="container m-auto bg-light p-3 text-center">
+      <h2 class="mt-2 mb-3">Bookmark your favorite sites</h2>
+      <div>
+        <label class="my-3" for="siteName">Site Name</label>
+        <input
+          id="siteName"
+          placeholder="Bookmark Name"
+          type="text"
+          class="form-control"
+        />
+        <div class="invalid-feedback">Please write web site name.</div>
+      </div>
+      <div>
+        <label class="my-2" for="siteName">Site URL</label>
+        <input
+          id="siteUrl"
+          placeholder="Site URL"
+          type="text"
+          class="form-control"
+        />
+        <div class="invalid-feedback">Please write acorrect web site.</div>
+      </div>
+      <button class="btn btn-primary my-3" onclick="submit()">Submit</button>
+      <table id="data" class="table"></table>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2022 Bookmarker Inc.</p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

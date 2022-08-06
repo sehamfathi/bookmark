@@ -1,0 +1,31 @@
+* {
+  font-family: arial;
+}
+header .container {
+  border-bottom: 1px solid #999;
+}
+header h3 {
+  color: #aaaaaa;
+}
+
+p {
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+}
+.bgRow {
+  background-image: linear-gradient(#eee, #fff);
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #0a3f77;
+  border: 1px solid #0a3f77;
+  color: white;
+}
